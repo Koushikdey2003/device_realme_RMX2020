@@ -541,4 +541,7 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">realme/RMX2020/RMX2020:10/QP1A.190711.020/1651798546:user/release-keys</string>
 
+    <!-- Whether device supports in-display fingerprint -->
+    <bool name="config_supportsUdfps">false</bool>
+
 </resources>
