@@ -306,6 +306,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+     
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.1.vendor \
