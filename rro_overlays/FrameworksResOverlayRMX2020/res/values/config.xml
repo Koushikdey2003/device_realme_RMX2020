@@ -530,4 +530,7 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">realme/RMX2020/RMX2020:10/QP1A.190711.020/1651798546:user/release-keys</string>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">false</bool>
+
 </resources>
