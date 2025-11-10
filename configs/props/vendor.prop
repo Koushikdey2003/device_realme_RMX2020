@@ -227,6 +227,10 @@ ro.vendor.sim_me_lock_mode=3
 ro.vendor.sim_refresh_reset_by_modem=1
 telephony.active_modems.max_count=2
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # TEE
 ro.hardware.kmsetkey=trustonic
 ro.vendor.mtk_tee_gp_support=1
