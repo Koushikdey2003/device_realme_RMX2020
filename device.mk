@@ -307,6 +307,7 @@ PRODUCT_PACKAGES += \
     FingerprintResOverlayRMX2020 \
     FrameworksResOverlayRMX2020 \
     LineageSDKOverlayRMX2020 \
+    LauncherOverlayRMX2020 \
     SettingsOverlayRMX2020 \
     SettingsProviderOverlayRMX2020 \
     SettingsProviderOverlayRMX2027 \
