@@ -21,6 +21,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Audio
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@7.0-impl:32 \
