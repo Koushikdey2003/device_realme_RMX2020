@@ -13,4 +13,8 @@
 
     <!-- Threshold in micro watts below which a charger is rated as "slow"; 1A @ 5V -->
     <integer name="config_chargingSlowlyThreshold">5000</integer>
+
+    <!-- Whether to play turbulence noise after clicking the play button -->
+    <bool name="config_turbulenceNoise">false</bool>
+
 </resources>
