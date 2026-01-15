@@ -98,7 +98,6 @@ ro.surface_flinger.uclamp.min=130
 ro.vendor.jpeg_decode_sw_opt=1
 ro.vendor.mtk_aal_support=1
 ro.vendor.mtk_gwsd_capability=1
-ro.custom.blur.enable=true
 
 # DRM
 drm.service.enabled=true
