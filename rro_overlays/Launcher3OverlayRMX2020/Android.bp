@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "LauncherOverlayRMX2020",
+    name: "Launcher3OverlayRMX2020",
     sdk_version: "current",
     vendor: true,
 }
