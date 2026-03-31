@@ -112,11 +112,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsysenv.so',
     ): blob_fixup()
         .add_needed('libbase_shim.so'),
-    (
-        'vendor/lib/libutils-v30.so',
-        'vendor/lib64/libutils-v30.so',
-    ): blob_fixup()
-        .add_needed('libprocessgroup_shim.so'),
     'vendor/bin/hw/mtkfusionrild': blob_fixup()
         .add_needed('libutils-v32.so'),
 }  # fmt: skip
