@@ -66,10 +66,6 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     Aperture
 
-# Configstore
-PRODUCT_PACKAGES += \
-    disable_configstore
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources \
