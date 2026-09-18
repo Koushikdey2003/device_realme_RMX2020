@@ -102,7 +102,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libcam.utils.sensorprovider.so',
     ): blob_fixup()
         .add_needed('android.hardware.sensors@1.0-convert-shared.so'),
-    'vendor/lib/libmnl.so': blob_fixup()
+        .replace_needed('libmnl.so', 'libmnl-mtk.so'),
+        'vendor/lib/libmnl-mtk.so': blob_fixup()
         .add_needed('libcutils.so'),
     (
         'vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron',
