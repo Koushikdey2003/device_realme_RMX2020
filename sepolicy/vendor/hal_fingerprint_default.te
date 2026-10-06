@@ -14,6 +14,9 @@ allow hal_fingerprint_default proc_oplus_fp:file r_file_perms;
 allow hal_fingerprint_default mobicore_user_device:chr_file rw_file_perms;
 allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
 
+allow hal_fingerprint_default mnt_vendor_file:dir search;
+allow hal_fingerprint_default persist_data_file:dir search;
+
 set_prop(hal_fingerprint_default, vendor_oplus_fingerprint_prop);
 set_prop(hal_fingerprint_default, system_oplus_fingerprint_prop);
 
